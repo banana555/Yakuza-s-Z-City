@@ -1,6 +1,6 @@
 local PANEL = {}
 local curent_panel 
-local red_select = Color(192,0,0)
+local red_select = Color(255,0,191)
 
 local Selects = {
     {Title = "Disconnect", Func = function(luaMenu) RunConsoleCommand("disconnect") end},
@@ -79,21 +79,21 @@ local Selects = {
 }
 
 local splasheh = {
-    'LIKE HOMICIDED',
-    'PLUV PLUV PLUVISKI',
-    'LULU IS NOT DEAD | !PLUV',
-    'THE TRAITOR WAS KILLED',
-    'NAB HOMICIDE SERVER',
-    'ALSO TRY MODDED HOMICIDE 2',
-    'HOP ON Z-CITY',
-    'JOHN Z-CITY',
-    ':pluvrare:',
-    'SAW51 IS REAL',
-    'MORE SMALLTOWN',
-    'MORE CLUE2022',
-    'BACKROOMS == CLUE',
-    'HELL IS NEAR',
-    'I WISH YOU GOOD HEALTH, JASON STATHAM'
+    'I WILL TALK ABOUT DEEPWOKEN TO MY CHILDS',
+    'DAMSO THE KING',
+    'BIG WHEN THE GAME REQUIRES TO PRESS F:',
+    'RAGOOZER STOP DELAYING UR GAMES',
+    'YAKUZA 0 ON TOP',
+    'DID YOU JUST SAY THE NWORD??',
+    'RTV RTV RTV',
+    'YESSS I DO BE MEATRIDING THE ADMINS',
+    'AIMLESS? MORE LIKE LAG ISSUES',
+    'NERF FIRE-EXTENGUISHERS',
+    'I HATE STAMINA DRAIN',
+    'EPSTEIN DID NOTHING WRONG',
+    'SHITASS MAP BROOOOOO',
+    'I FELL SO CLOSE TO YOU RIGHT NOW',
+    'PLUV IS ASS NGL'
 }
 
 --print(string.upper('I wish you good health, Jason Statham'))
@@ -123,7 +123,7 @@ function PANEL:InitializeMarkup()
         return markup.Parse(text)
     end
 
-    local text = "<font=ZC_MM_Title><colour=199,2,2,255>Z</colour>-City</font>\n<font=ZCity_Tiny><colour=105,105,105>" .. gm .. "</colour></font>"
+    local text = "<font=ZCity_Medium><colour=255,0,191>Yakuza's </colour><colour=94,15,94>Z</colour>-City</font>\n<font=ZCity_Tiny><colour=105,105,105>" .. gm .. "</colour></font>"
     return markup.Parse(text)
 end
 
