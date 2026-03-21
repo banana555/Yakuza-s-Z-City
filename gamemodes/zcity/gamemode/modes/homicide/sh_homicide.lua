@@ -143,10 +143,13 @@ Disarms faster from behind.
 Disarms faster from front if the victim is in ragdoll.
 Proficient in shooting from guns.
 Has additional stamina (+ 80 units compared to other traitors).
-Equipped with walkie-talkie.
+Equipped with walkie-talkie, wire, epipen, tranquilizer and flashlight.
 For people who like to play checkers.]],
 		Objective = "You're an expert in guns and in disarmament. Disarm gunman and use his weapon against others",
 		SpawnFunction = function(ply)
+			ply:Give("weapon_tranquilizer")
+			ply:Give("weapon_zc_fiberwire_standalone")	
+			ply:Give("weapon_adrenaline")
 			-- ply:Give("weapon_sogknife")	
 			-- ply:Give("weapon_adrenaline")
 			-- ply:Give("weapon_hg_smokenade_tpik")
@@ -167,11 +170,12 @@ Disarms faster from behind.
 Disarms faster from front if the victim is in ragdoll.
 Proficient in shooting from guns.
 Has additional stamina (+ 80 units compared to other traitors).
-Equipped with walkie-talkie, knife, epipen and flashlight.
+Equipped with walkie-talkie, wire, epipen, tranquilizer and flashlight.
 For people who like to play checkers.]],
 		Objective = "You're an expert in guns and in disarmament. Disarm gunman and use his weapon against others",
 		SpawnFunction = function(ply)
-			ply:Give("weapon_sogknife")	
+			ply:Give("weapon_tranquilizer")
+			ply:Give("weapon_zc_fiberwire_standalone")	
 			ply:Give("weapon_adrenaline")
 			-- ply:Give("weapon_walkie_talkie")
 			-- ply:Give("weapon_hg_smokenade_tpik")
